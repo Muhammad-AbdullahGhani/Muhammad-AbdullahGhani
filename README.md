@@ -167,10 +167,10 @@ I am an **AI Engineer** specializing in Generative AI, LLM fine-tuning, RAG pipe
 ## 🔗 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/abdullaghani206" target="_blank">
+  <a href="https://linkedin.com/in/muhammad-abdullahghani206" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
   </a>
-  <a href="https://abdullahghani.dev" target="_blank">
+  <a href="https://abdullaghani.dev" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=06B6D4" alt="Portfolio" />
   </a>
   <a href="mailto:abdullaghani206@gmail.com">
