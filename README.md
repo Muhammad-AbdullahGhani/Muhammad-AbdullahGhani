@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/Location-Islamabad%2C%20Pakistan-0d1117?style=flat-square&logo=googlemaps&logoColor=06B6D4" alt="Location" />
   <img src="https://img.shields.io/badge/Degree-BS%20Software%20Engineering%20%40%20FAST--NUCES-0d1117?style=flat-square&logo=codeforces&logoColor=a855f7" alt="Education" />
   <img src="https://img.shields.io/badge/Status-AI%20Engineer%20%40%20FlyRank%20AI-0d1117?style=flat-square&logo=rocket&logoColor=22c55e" alt="Status" />
+  <img src="https://img.shields.io/badge/Open%20Source-Contributor-0d1117?style=flat-square&logo=github&logoColor=38bdf8" alt="Open Source Contributor" />
 </p>
 
 ---
@@ -23,6 +24,7 @@ I am an **AI Engineer** specializing in Generative AI, LLM fine-tuning, RAG pipe
 * 🚀 **FlyRank AI:** Designing and deploying scalable RAG pipelines and autonomous AI agents using LangChain/LangGraph, reducing token usage by 25%.
 * 🧠 **Agentic Systems:** Built a low-latency WebRTC SRE diagnostic voice agent (LangGraph, LiveKit) and an auto-healing infrastructure supervisor (80% reduction in manual Kubernetes incidents).
 * ⚙️ **MLOps & Orchestration:** Proficient in containerized deployments, drift detection, and zero-downtime rollouts on Azure AKS.
+* 🌐 **Open Source:** Actively contributing to cutting-edge AI infrastructure and multi-modal video retrieval engines like [VidXP](https://github.com/grayhatdevelopers/vidxp).
 
 ---
 
@@ -137,6 +139,30 @@ I am an **AI Engineer** specializing in Generative AI, LLM fine-tuning, RAG pipe
         <img src="https://img.shields.io/badge/ChromaDB-0d1117?style=flat-square&logo=databricks&logoColor=FF3600" />
         <img src="https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688" />
       </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌐 Open Source Contributions
+
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <h3>🎬 <a href="https://github.com/grayhatdevelopers/vidxp">VidXP (Video eXPlain)</a> — Natural Language Video Indexing Engine</h3>
+      <p>
+        <a href="https://github.com/grayhatdevelopers/vidxp/pull/87"><img src="https://img.shields.io/badge/PR-%2387%20Merged-8957e5?style=flat-square&logo=github&logoColor=white" alt="PR #87 Merged" /></a>
+        <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+        <img src="https://img.shields.io/badge/Multi--Modal%20Fusion-0d1117?style=flat-square&logo=diagram&logoColor=06B6D4" alt="Fusion" />
+        <img src="https://img.shields.io/badge/Testing-Pytest-0d1117?style=flat-square&logo=pytest&logoColor=0A9EDC" alt="Pytest" />
+      </p>
+      <p>VidXP is an open-source video indexing engine that connects LLM agents (Claude, Hermes, OpenClaw) to video understanding with low token overhead.</p>
+      <ul>
+        <li><b>Pull Request:</b> <a href="https://github.com/grayhatdevelopers/vidxp/pull/87"><code>#87: fix(fusion): bound moment components to shared overlapping interval</code></a></li>
+        <li><b>Core Search Fusion Fix:</b> Resolved moment grouping bug in <code>_connected_components</code> / <code>_shared_overlap_components</code> where multi-modal search hits across video modalities produced sprawling intervals. Restructured fusion logic to tightly bound moments to their true shared overlapping window (<code>max</code> start & <code>min</code> end).</li>
+        <li><b>Reliability & Test Coverage:</b> Added extensive test suites in <code>tests/test_search_fusion.py</code> (+115 lines) covering temporal alignment, moment ordering, and boundary edge cases.</li>
+      </ul>
     </td>
   </tr>
 </table>
