@@ -152,14 +152,14 @@ I am an **AI Engineer** specializing in Generative AI, LLM fine-tuning, RAG pipe
     <td valign="top">
       <h3>🎬 <a href="https://github.com/grayhatdevelopers/vidxp">VidXP (Video eXPlain)</a> — Natural Language Video Indexing Engine</h3>
       <p>
-        <a href="https://github.com/grayhatdevelopers/vidxp/pull/87"><img src="https://img.shields.io/badge/PR-%2387%20Merged-8957e5?style=flat-square&logo=github&logoColor=white" alt="PR #87 Merged" /></a>
+        <a href="https://github.com/grayhatdevelopers/vidxp/pull/141"><img src="https://img.shields.io/badge/PR-%23141%20Merged-8957e5?style=flat-square&logo=github&logoColor=white" alt="PR #141 Merged" /></a>
         <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
         <img src="https://img.shields.io/badge/Multi--Modal%20Fusion-0d1117?style=flat-square&logo=diagram&logoColor=06B6D4" alt="Fusion" />
         <img src="https://img.shields.io/badge/Testing-Pytest-0d1117?style=flat-square&logo=pytest&logoColor=0A9EDC" alt="Pytest" />
       </p>
       <p>VidXP is an open-source video indexing engine that connects LLM agents (Claude, Hermes, OpenClaw) to video understanding with low token overhead.</p>
       <ul>
-        <li><b>Pull Request:</b> <a href="https://github.com/grayhatdevelopers/vidxp/pull/87"><code>#87: fix(fusion): bound moment components to shared overlapping interval</code></a></li>
+        <li><b>Pull Request:</b> <a href="https://github.com/grayhatdevelopers/vidxp/pull/141"><code>#141: fix(fusion): bound moment components to shared overlapping interval (Closes #87)</code></a></li>
         <li><b>Core Search Fusion Fix:</b> Resolved moment grouping bug in <code>_connected_components</code> / <code>_shared_overlap_components</code> where multi-modal search hits across video modalities produced sprawling intervals. Restructured fusion logic to tightly bound moments to their true shared overlapping window (<code>max</code> start & <code>min</code> end).</li>
         <li><b>Reliability & Test Coverage:</b> Added extensive test suites in <code>tests/test_search_fusion.py</code> (+115 lines) covering temporal alignment, moment ordering, and boundary edge cases.</li>
       </ul>
