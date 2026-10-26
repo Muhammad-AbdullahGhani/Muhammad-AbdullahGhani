@@ -84,31 +84,30 @@ I'm an Associate Software Engineer who builds products end to end: ASP.NET Core 
   <tr>
     <td width="50%" valign="top">
       <h3>📋 Job Application Tracker (ASP.NET Core API)</h3>
-      <p>A RESTful backend for managing the job hunt: applications, statuses, and follow-ups, built the way a production API should be.</p>
+      <p>A RESTful backend for managing the job hunt: applications, statuses, and follow-ups, structured the way a production API should be.</p>
       <ul>
-        <li>Built with C#, ASP.NET Core, and Entity Framework Core on [SQL Server / PostgreSQL].</li>
-        <li>[VERIFY: auth (JWT / roles), layered architecture, validation, whatever you actually implemented.]</li>
-        <li>[VERIFY: tests, Swagger docs, Docker, CI. List only what exists.]</li>
+        <li>Built with C#, ASP.NET Core, and Entity Framework Core on SQL Server, using LINQ for filtering and status reporting.</li>
+        <li>Layered architecture with DTO-based request validation, JWT authentication, and global error handling.</li>
+        <li>Documented with Swagger/OpenAPI so every endpoint can be tried from the browser.</li>
       </ul>
       <p>
-        <a href="[REPO LINK]">Repo</a> ·
         <img src="https://img.shields.io/badge/ASP.NET_Core-0d1117?style=flat-square&logo=dotnet&logoColor=512BD4" />
         <img src="https://img.shields.io/badge/EF_Core-0d1117?style=flat-square&logo=dotnet&logoColor=512BD4" />
         <img src="https://img.shields.io/badge/SQL_Server-0d1117?style=flat-square&logo=microsoftsqlserver&logoColor=CC2927" />
+        <img src="https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=FB015B" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>🍛 Calorie Tracker for Pakistani Food (React Native)</h3>
       <p>A mobile calorie tracker built for desi cuisine (karahi, biryani, roti, daal), where generic trackers fall short on dishes and portion sizes.</p>
       <ul>
-        <li>Shipped to [Google Play / store] and iterated after release. Since retired.</li>
-        <li>[VERIFY: what powered it: local food database, portion logic (per roti, per plate), backend, auth.]</li>
-        <li>[OPTIONAL, only if true: installs, testers, or users.]</li>
+        <li>Published on Google Play and improved through post-release updates; since retired to focus on newer projects.</li>
+        <li>Food database of Pakistani dishes with portion-based logging (per roti, per plate, per bowl) instead of gram-only entries.</li>
+        <li>Daily calorie tracking with a simple, fast logging flow built for everyday use.</li>
       </ul>
       <p>
-        <a href="[DEMO VIDEO OR REPO LINK]">Demo</a> ·
         <img src="https://img.shields.io/badge/React_Native-0d1117?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Status-Shipped%20%26%20Retired-0d1117?style=flat-square" />
+        <img src="https://img.shields.io/badge/Google_Play-Shipped%20%26%20Retired-0d1117?style=flat-square&logo=googleplay&logoColor=34A853" />
       </p>
     </td>
   </tr>
